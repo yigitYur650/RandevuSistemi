@@ -9,6 +9,11 @@ app.use(express.static('public'));
 
 let currentNumber = 0;
 
+// Ana sayfa
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+});
+
 // Mevcut numarayı al
 app.get('/api/number', (req, res) => {
     res.json({ number: currentNumber });
@@ -20,6 +25,6 @@ app.post('/api/number', (req, res) => {
     res.json({ number: currentNumber });
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log(`Server running on port ${port}`);
 }); 
