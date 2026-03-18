@@ -1,4 +1,4 @@
-Randevu Sistemi (Legacy Project) 🗓️
+Randevu Sistemi (Legacy Project) 
 Bu proje, yazılım yolculuğumun ilk aşamalarında, yaklaşık 10 ay önce geliştirdiğim amatör bir randevu yönetim sistemidir. Gelişim sürecimi takip etmek ve nereden başladığımı unutmamak adına bu depoyu (repository) silmiyorum.
 
 Proje Hakkında
